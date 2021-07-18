@@ -7,7 +7,7 @@ for i in range(10):
     while tahmin != sayi:
         if tahmin > sayi:
             print(guess, "çok yüksekti. Tekrar deneyin")
-        if tahmin < the_number:
+        if tahmin < sayi:
             print(tahmin, "çok düşüktü. Tekrar deneyin.")
         tahmin = int(input("Tekrar tahmin et: "))
     print(tahmin, "numaraydı! Sen kazandın!")
